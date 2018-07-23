@@ -13,6 +13,9 @@
 		DE265DD720AC41B600189003 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE265DD520AC41B600189003 /* Main.storyboard */; };
 		DE265DD920AC41B600189003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE265DD820AC41B600189003 /* Assets.xcassets */; };
 		DE265DDC20AC41B600189003 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE265DDA20AC41B600189003 /* LaunchScreen.storyboard */; };
+		DE64F04F2106974200F6907A /* AlamofireStructs Screenshot 2.png in Resources */ = {isa = PBXBuildFile; fileRef = DE64F04C2106974200F6907A /* AlamofireStructs Screenshot 2.png */; };
+		DE64F0502106974200F6907A /* AlamofireStructs Screenshot 3.png in Resources */ = {isa = PBXBuildFile; fileRef = DE64F04D2106974200F6907A /* AlamofireStructs Screenshot 3.png */; };
+		DE64F0512106974200F6907A /* AlamofireStructs Screenshot 1.png in Resources */ = {isa = PBXBuildFile; fileRef = DE64F04E2106974200F6907A /* AlamofireStructs Screenshot 1.png */; };
 		DED2AC7A20B437F100D3D28E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED2AC7920B437F100D3D28E /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +30,9 @@
 		DE265DD820AC41B600189003 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE265DDB20AC41B600189003 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE265DDD20AC41B600189003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE64F04C2106974200F6907A /* AlamofireStructs Screenshot 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AlamofireStructs Screenshot 2.png"; sourceTree = "<group>"; };
+		DE64F04D2106974200F6907A /* AlamofireStructs Screenshot 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AlamofireStructs Screenshot 3.png"; sourceTree = "<group>"; };
+		DE64F04E2106974200F6907A /* AlamofireStructs Screenshot 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AlamofireStructs Screenshot 1.png"; sourceTree = "<group>"; };
 		DED2AC7920B437F100D3D28E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,6 +93,9 @@
 				DE265DD820AC41B600189003 /* Assets.xcassets */,
 				DE265DDA20AC41B600189003 /* LaunchScreen.storyboard */,
 				DE265DDD20AC41B600189003 /* Info.plist */,
+				DE64F04E2106974200F6907A /* AlamofireStructs Screenshot 1.png */,
+				DE64F04C2106974200F6907A /* AlamofireStructs Screenshot 2.png */,
+				DE64F04D2106974200F6907A /* AlamofireStructs Screenshot 3.png */,
 			);
 			path = AlamofireStructs;
 			sourceTree = "<group>";
@@ -153,9 +162,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE64F04F2106974200F6907A /* AlamofireStructs Screenshot 2.png in Resources */,
 				DE265DDC20AC41B600189003 /* LaunchScreen.storyboard in Resources */,
+				DE64F0502106974200F6907A /* AlamofireStructs Screenshot 3.png in Resources */,
 				DE265DD920AC41B600189003 /* Assets.xcassets in Resources */,
 				DE265DD720AC41B600189003 /* Main.storyboard in Resources */,
+				DE64F0512106974200F6907A /* AlamofireStructs Screenshot 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
