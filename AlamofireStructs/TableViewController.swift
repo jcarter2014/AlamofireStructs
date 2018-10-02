@@ -88,7 +88,6 @@ class TableViewController: UITableViewController, UISearchBarDelegate {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell")
         
         cell?.textLabel?.text = coins[indexPath.row].name
-        //cell?.detailTextLabel?.text = coins[indexPath.row].percent_change_7d
         let weekChange = coins[indexPath.row].percent_change_7d
         if let weekChangeAsDouble = (weekChange as NSString?)?.doubleValue {
             cell?.detailTextLabel?.text = "\(weekChangeAsDouble)"
@@ -98,15 +97,6 @@ class TableViewController: UITableViewController, UISearchBarDelegate {
                 cell?.detailTextLabel?.textColor = UIColor.red
             }
         }
-        
-//        if let weekChangeToInt = Int(weekChange!) {
-//            print("success")
-//            let weekChangeToDouble = Double(weekChangeToInt)
-//            cell?.detailTextLabel?.text = "\(weekChangeToDouble)"
-//            cell?.detailTextLabel?.textColor = UIColor.green
-//        }
-        
-
         return cell!
     }
     
