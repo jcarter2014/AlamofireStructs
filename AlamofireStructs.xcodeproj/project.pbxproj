@@ -16,7 +16,6 @@
 		DE64F04F2106974200F6907A /* AlamofireStructs Screenshot 2.png in Resources */ = {isa = PBXBuildFile; fileRef = DE64F04C2106974200F6907A /* AlamofireStructs Screenshot 2.png */; };
 		DE64F0502106974200F6907A /* AlamofireStructs Screenshot 3.png in Resources */ = {isa = PBXBuildFile; fileRef = DE64F04D2106974200F6907A /* AlamofireStructs Screenshot 3.png */; };
 		DE64F0512106974200F6907A /* AlamofireStructs Screenshot 1.png in Resources */ = {isa = PBXBuildFile; fileRef = DE64F04E2106974200F6907A /* AlamofireStructs Screenshot 1.png */; };
-		DECA606C2162DF4F007DB06E /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA606B2162DF4F007DB06E /* Test.swift */; };
 		DED2AC7A20B437F100D3D28E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED2AC7920B437F100D3D28E /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,7 +33,6 @@
 		DE64F04C2106974200F6907A /* AlamofireStructs Screenshot 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AlamofireStructs Screenshot 2.png"; sourceTree = "<group>"; };
 		DE64F04D2106974200F6907A /* AlamofireStructs Screenshot 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AlamofireStructs Screenshot 3.png"; sourceTree = "<group>"; };
 		DE64F04E2106974200F6907A /* AlamofireStructs Screenshot 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AlamofireStructs Screenshot 1.png"; sourceTree = "<group>"; };
-		DECA606B2162DF4F007DB06E /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		DED2AC7920B437F100D3D28E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -90,7 +88,6 @@
 			children = (
 				DE265DD120AC41B600189003 /* AppDelegate.swift */,
 				DE265DD320AC41B600189003 /* TableViewController.swift */,
-				DECA606B2162DF4F007DB06E /* Test.swift */,
 				DE265DD520AC41B600189003 /* Main.storyboard */,
 				DED2AC7920B437F100D3D28E /* ViewController.swift */,
 				DE265DD820AC41B600189003 /* Assets.xcassets */,
@@ -236,7 +233,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DED2AC7A20B437F100D3D28E /* ViewController.swift in Sources */,
-				DECA606C2162DF4F007DB06E /* Test.swift in Sources */,
 				DE265DD420AC41B600189003 /* TableViewController.swift in Sources */,
 				DE265DD220AC41B600189003 /* AppDelegate.swift in Sources */,
 			);

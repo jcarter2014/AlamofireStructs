@@ -22,16 +22,13 @@ class TableViewController: UITableViewController, UISearchBarDelegate {
     struct Coins: Decodable {
         let coins: [Coin]
     }
+    
     @IBOutlet weak var searchBar: UISearchBar!
     
     var coins = [Coin]()
     var searchCoins = [Coin]()
     
     let url = "https://api.coinmarketcap.com/v1/ticker/"
-    
-    @IBAction func showCoins(_ sender: Any) {
-        print(coins)
-    }
     
     func getPrices() {
         guard let url = URL(string: url) else { return }
@@ -44,9 +41,6 @@ class TableViewController: UITableViewController, UISearchBarDelegate {
                 for coin in coinList {
                     self.coins.append(coin)
                 }
-                
-                //print(coinList)
-                
 
             } catch let jsonErr {
                 print("Error serializing json:", jsonErr)
